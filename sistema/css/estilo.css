@@ -1,0 +1,53 @@
+body {
+  font-family: ubuntu; arial;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  margin-right: 20%;
+  margin-left: 20%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-color: black;
+}
+
+h1, h2 {
+  text-align: center;
+  color: black;
+}
+p,{margin-right:15%;margin-left:15%;color:black;}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2a2cf8;
+}
+
